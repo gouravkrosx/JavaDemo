@@ -1,0 +1,127 @@
+version: api.keploy.io/v1beta1
+name: report-1
+status: FAILED
+success: 1
+failure: 1
+total: 2
+tests:
+    - kind: Http
+      name: report-1
+      status: PASSED
+      started: 1691663027
+      completed: 1691663028
+      test_case_path: /home/keploy/IdeaProjects/JDK20Demo/keploy
+      mock_path: ""
+      test_case_id: test-1
+      req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: http://localhost:8080/notes
+        header:
+            Accept: '*/*'
+            Host: localhost:8080
+            User-Agent: curl/7.81.0
+        body: ""
+        body_type: ""
+      resp:
+        status_code: 200
+        header:
+            Content-Type: application/json
+            Date: Thu, 10 Aug 2023 10:22:42 GMT
+        body: '[]'
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+      result:
+        status_code:
+            normal: true
+            expected: 200
+            actual: 200
+        headers_result:
+            - normal: true
+              expected:
+                key: Date
+                value:
+                    - Thu, 10 Aug 2023 10:22:42 GMT
+              actual:
+                key: Date
+                value:
+                    - Thu, 10 Aug 2023 10:23:47 GMT
+            - normal: true
+              expected:
+                key: Content-Type
+                value:
+                    - application/json
+              actual:
+                key: Content-Type
+                value:
+                    - application/json
+        body_result:
+            - normal: true
+              type: JSON
+              expected: '[]'
+              actual: '[]'
+        dep_result: []
+    - kind: Http
+      name: report-1
+      status: FAILED
+      started: 1691663028
+      completed: 1691663030
+      test_case_path: /home/keploy/IdeaProjects/JDK20Demo/keploy
+      mock_path: ""
+      test_case_id: test-2
+      req:
+        method: POST
+        proto_major: 1
+        proto_minor: 1
+        url: http://localhost:8080/notes
+        header:
+            Accept: '*/*'
+            Content-Length: "73"
+            Content-Type: application/json
+            Host: localhost:8080
+            User-Agent: curl/7.81.0
+        body: '{"title":"First Note","content":"This is the content of the first note."}'
+        body_type: ""
+      resp:
+        status_code: 200
+        header:
+            Content-Type: application/json
+            Date: Thu, 10 Aug 2023 10:22:50 GMT
+        body: '{"id":"64d4ba7a4546ef67e8441116","title":"First Note","content":"This is the content of the first note."}'
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+      result:
+        status_code:
+            normal: true
+            expected: 200
+            actual: 200
+        headers_result:
+            - normal: true
+              expected:
+                key: Content-Type
+                value:
+                    - application/json
+              actual:
+                key: Content-Type
+                value:
+                    - application/json
+            - normal: true
+              expected:
+                key: Date
+                value:
+                    - Thu, 10 Aug 2023 10:22:50 GMT
+              actual:
+                key: Date
+                value:
+                    - Thu, 10 Aug 2023 10:23:48 GMT
+        body_result:
+            - normal: false
+              type: JSON
+              expected: '{"id":"64d4ba7a4546ef67e8441116","title":"First Note","content":"This is the content of the first note."}'
+              actual: '{"id":"64d4bab4ac165b0f36232d47","title":"First Note","content":"This is the content of the first note."}'
+        dep_result: []
