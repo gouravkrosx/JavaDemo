@@ -18,7 +18,9 @@ public class NoteService {
     }
 
     public List<Note> findAll() {
-        return noteRepository.findAll();
+        List<Note> notes = noteRepository.findAll();
+        System.out.println("There are the notes returned by the database: " +  notes.get(1).getTitle());
+        return notes;
     }
 
     // Other CRUD operations
