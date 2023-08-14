@@ -1,0 +1,353 @@
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "22387"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f5025ef6bcf4607-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:30:43 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xZGQUn83DAElbPvhuET5AdIsubqoD6q3iXxdNRnqhN4uTThmZnPZI0X9HZyHEIuL9sbHOCv6ftxuDti4RIkp477tR0ll27B4NWfgRe16u7y7o84zgWHl1nzSQEfLV6%2FthC5EiuF%2FHaCIutkEAJ0gywS45We6WnDVhlGE"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1691269776"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753443
+---
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "13956"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f50266a3c6e3dd4-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:31:03 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CTQjFU1b5Pd38tw1lRpXI6D8KPdPGuwtWSGggLHmcOOoa6VXJJPkW%2BFn9ChZHMQmJ4CqCyF%2Be%2FTbEmx6%2FoQ4vCIhog6mesBram%2FDwvSC5eCseDa%2FJXEC9K3i8q7zabVFEniCWrh63pI51oCBBL5GC%2BPD%2FtWFirFtDSBT"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1691422596"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753463
+---
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "13976"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f5026e73bf144c5-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:31:23 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8RPzZWVoGaYy6CQIqFORJLzkse9nJGl3hotL28Z8MjEfgljUANPttbP8Ribfxd1OiFZLdGOCdfZ6%2B4KSscpIdlnqV6VZG2Yw9kE1bhqCaCdaOBoN9rbH3lD6a%2BPvcj%2BG2j8fPgn7GRgI3ZeMaZ43W4Uks1HB9cJPZ1RF"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1691422596"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753483
+---
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "22447"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f5027642bcb4804-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:31:43 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mSGyU33zANAHGqTEeoCX278%2FsU6uHRgGCKww8q9QaVxR1ChTxonSKZvk2g96nrrjMpaoTDadFaVRmeWKxGBbuuYAmLoyFXZFXos9VWCvcpMrnr0HYVrCra5DfD0ClNIQZkjjW7XZ%2FiM8BIoUNHuFtzXkQaOZbEBkd8zj"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1691269776"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753503
+---
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "14545"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f5027e13a3140ca-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:32:03 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LEsKtWQWVvhSfsBO%2B93sM%2BcM1yv%2BU2KINz%2B7TTE1CkhVLiDkBehTTscJWsZJbpcjrLhXMYEW8wv4vJVdW%2FKyElTrMSwEnacexksnh93jm0AAALihYuHWc3PscHFcJotTECG9Pfx0uvcc4U1HDykByWo7tFAn6BBm0dqD"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1690672311"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753523
+---
+version: api.keploy.io/v1beta2
+kind: Http
+name: mocks
+spec:
+    metadata:
+        name: Http
+        operation: GET
+        type: HTTP_CLIENT
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: /todos/1
+        header:
+            Accept: '*/*'
+            User-Agent: AHC/2.1
+        body: ""
+        body_type: ""
+    resp:
+        status_code: 200
+        header:
+            Accept-Ranges: bytes
+            Access-Control-Allow-Credentials: "true"
+            Age: "14565"
+            Alt-Svc: h3=":443"; ma=86400
+            Cache-Control: max-age=43200
+            Cf-Cache-Status: HIT
+            Cf-Ray: 7f50285e4940404d-SIN
+            Connection: keep-alive
+            Content-Length: "83"
+            Content-Type: application/json; charset=utf-8
+            Date: Fri, 11 Aug 2023 11:32:23 GMT
+            Etag: W/"53-hfEnumeNh6YirfjyjaujcOPPT+s"
+            Expires: "-1"
+            Nel: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Pragma: no-cache
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0kW6xzkQYRkbJZaQxJfQlET2%2FEDVblVX%2FGvbjlCInN6UTWSc0hxUzCoVIlLLHhGKd2EGjm7%2FAwtggRHjV3BNlQ24ZpVCsi6arX4wUPMLD%2F8Em9vtlrXt65V7TdAwK4EYuKL0EweYxCu7ro4vbsQxNbLbKzU7NJAvVfmB"}],"group":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            Vary: Origin, Accept-Encoding
+            Via: 1.1 vegur
+            X-Content-Type-Options: nosniff
+            X-Powered-By: Express
+            X-Ratelimit-Limit: "1000"
+            X-Ratelimit-Remaining: "999"
+            X-Ratelimit-Reset: "1690672311"
+        body: |-
+            {
+              "userId": 1,
+              "id": 1,
+              "title": "delectus aut autem",
+              "completed": false
+            }
+        body_type: ""
+        status_message: ""
+        proto_major: 0
+        proto_minor: 0
+    objects: []
+    created: 1691753543
